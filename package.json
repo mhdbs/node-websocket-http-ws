@@ -1,0 +1,32 @@
+{
+  "name": "websocket-http-ws",
+  "version": "1.0.0",
+  "description": "nodejs websocket server serve to multiple clients with the request will be from an http server or /ws client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdbs/node-websocket-http-ws.git"
+  },
+  "author": "Mohammed Bilal",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "rotating-file-stream": "^1.4.0",
+    "sinon": "^7.3.1",
+    "socket.io": "^2.2.0",
+    "socket.io-redis": "^5.2.0",
+    "socketio-auth": "^0.1.1",
+    "url": "^0.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mhdbs/node-websocket-http-ws/issues"
+  },
+  "homepage": "https://github.com/mhdbs/node-websocket-http-ws#readme"
+}
